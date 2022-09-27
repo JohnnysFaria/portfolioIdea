@@ -1,0 +1,17 @@
+ul, li {
+  list-style:none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #090035;
+  color: #FFFFFF;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}

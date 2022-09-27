@@ -1,7 +1,11 @@
+import Home from './Pages/Home/Home';
+import Header from './Components/Header/Header';
+
 function App() {
   return (
     <div className="App">
-      <p>Esse é meu site</p>
+      <Header />
+      <Home />
     </div>
   );
 }

@@ -1,5 +1,13 @@
-import styles from './Header.module.css';
+import Header from '../../Components/Header/Header';
+import Container from '../../Components/Container/Container';
+import styles from './Home.module.css';
 
-export default function Header() {
-  return <div></div>;
+export default function Home() {
+  return (
+    <>
+      <Container>
+        <section>A</section>
+      </Container>
+    </>
+  );
 }
