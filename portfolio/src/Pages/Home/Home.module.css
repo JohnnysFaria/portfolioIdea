@@ -74,13 +74,13 @@
 }
 
 .title {
-  position: fixed;
+  position: absolute;
   z-index: -1;
 }
 .title h1{
   position: absolute;
   color: transparent;
-  font-size: 10rem;
+  font-size: 15rem;
   font-weight: bold;
   margin: 100px 0px 0px 450px;
   font-family: 'League Spartan', sans-serif;
@@ -95,5 +95,63 @@
   color: #FFFFFF;
   font-weight: bold;
   letter-spacing: 2px;
-  margin: 230px 0px 0px 450px;
+  margin: 300px 0px 0px 450px;
+}
+
+@media screen and (max-width: 1024px) {
+  .title h1 {
+    font-size: 10rem;
+  }
+}
+@media screen and (max-width: 912px) {
+  .card {
+    position: relative;
+    width: 340px;
+    height: 500px;
+    margin-left: 0;
+    top: 0;
+    margin-top: 300px;
+  }
+  .resp {
+    display: flex;
+    justify-content: center;
+  }
+  .title h1 {
+    margin: 70px 0px 0px 170px;
+  }
+  .title span {
+    margin: 200px 0px 0px 350px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    margin-top: 225px;
+  }
+  .title h1 {
+    font-size: 5rem;
+    margin: 40px 0px 0px 75px;
+  }
+  .title span {
+    margin: 125px 0px 0px 125px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .title h1 {
+    font-size: 5rem;
+    margin: 40px 0px 0px 130px;
+  }
+  .title span {
+    margin: 125px 0px 0px 170px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .title h1 {
+    font-size: 5rem;
+    margin: 40px 0px 0px 60px;
+  }
+  .title span {
+    margin: 125px 0px 0px 105px;
+  }
 }

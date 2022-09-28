@@ -5,7 +5,7 @@ import backnick from '../../Components/Img/background.gif';
 export default function Home() {
   return (
     <>
-      <section>
+      <section className={styles.resp}>
         <div className={styles.title}>
           <h1>DESIGN</h1>
           <span>Gráfico</span>
