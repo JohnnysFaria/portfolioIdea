@@ -1,11 +1,9 @@
-ul, li {
-  list-style:none;
-}
-
 .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 90%;
+  height: 4rem;
   margin: 0 auto;
   background-color: #090035;
   color: #FFFFFF;
@@ -14,4 +12,9 @@ ul, li {
 .list {
   display: flex;
   flex-direction: row;
+}
+
+.list a {
+  margin-left: 10px;
+  color: #FFFFFF;
 }

@@ -8,13 +8,13 @@ export default function Header() {
         <h1>LOGO</h1>
         <ul className={styles.list}>
           <li>
-            <a href="#">About me</a>
+            <a href="#about">About me</a>
           </li>
           <li>
-            <a href="#">Works</a>
+            <a href="#works">Works</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
